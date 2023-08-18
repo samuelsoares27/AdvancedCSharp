@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SerializerJson", "03_Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_DeserializerJson", "04_DeserializerJson\04_DeserializerJson.csproj", "{DA0D7749-18D5-4DAD-94A1-FD78CCCF027E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Generics", "05_Generics\05_Generics.csproj", "{86D1C9D5-4026-403A-AF7E-363968A4B280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ExtensionMethods", "06_ExtensionMethods\06_ExtensionMethods.csproj", "{6947E88D-2DA4-49B8-9822-174524A8827B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{DA0D7749-18D5-4DAD-94A1-FD78CCCF027E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA0D7749-18D5-4DAD-94A1-FD78CCCF027E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA0D7749-18D5-4DAD-94A1-FD78CCCF027E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D1C9D5-4026-403A-AF7E-363968A4B280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D1C9D5-4026-403A-AF7E-363968A4B280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D1C9D5-4026-403A-AF7E-363968A4B280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D1C9D5-4026-403A-AF7E-363968A4B280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6947E88D-2DA4-49B8-9822-174524A8827B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6947E88D-2DA4-49B8-9822-174524A8827B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6947E88D-2DA4-49B8-9822-174524A8827B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6947E88D-2DA4-49B8-9822-174524A8827B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

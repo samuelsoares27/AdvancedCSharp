@@ -1,7 +1,7 @@
 ﻿using _00_Library;
 using System.Xml.Serialization;
 
-var stream = new StreamReader(@"C:\Trabalho\AdvancedCSharp\00_Serializer\Documentos\serializado.xml");
+var stream = new StreamReader(@"C:\Trabalho\AdvancedCSharp\00_Library\Documentos\serializado.xml");
 var serializer = new XmlSerializer(typeof(Usuario));
 
 Usuario usuario =  (Usuario)serializer.Deserialize(stream);

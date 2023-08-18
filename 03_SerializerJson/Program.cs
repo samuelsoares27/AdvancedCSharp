@@ -10,7 +10,7 @@ var usuario = new Usuario()
 
 string json = JsonConvert.SerializeObject(usuario);
 
-var stream = new StreamWriter(@"C:\Trabalho\AdvancedCSharp\00_Serializer\Documentos\serializado.json");
+var stream = new StreamWriter(@"C:\Trabalho\AdvancedCSharp\00_Library\Documentos\serializado.json");
 
 stream.Write(json);
 stream.Close();

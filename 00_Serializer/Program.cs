@@ -11,7 +11,7 @@ var usuario = new Usuario()
 
 var serializer = new XmlSerializer(typeof(Usuario));
 
-var stream = new StreamWriter(@"C:\Trabalho\AdvancedCSharp\00_Serializer\Documentos\serializado.xml");
+var stream = new StreamWriter(@"C:\Trabalho\AdvancedCSharp\00_Library\Documentos\serializado.xml");
 
 serializer.Serialize(stream, usuario);
 Console.WriteLine("Criado com Sucesso");
