@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Library", "00_Library\00_Library.csproj", "{D556CF3B-ED96-4C62-A4EF-24E3BB125FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00_Library", "00_Library\00_Library.csproj", "{D556CF3B-ED96-4C62-A4EF-24E3BB125FCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SerializerXml", "00_Serializer\01_SerializerXml.csproj", "{EF3503EA-0CBD-4E77-9558-9C4AC1FCE233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_SerializerXml", "00_Serializer\01_SerializerXml.csproj", "{EF3503EA-0CBD-4E77-9558-9C4AC1FCE233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_DeserializeXml", "02_Deserialize\02_DeserializeXml.csproj", "{2F288855-DC1C-478F-A13E-A5E1C7367F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_DeserializeXml", "02_Deserialize\02_DeserializeXml.csproj", "{2F288855-DC1C-478F-A13E-A5E1C7367F84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SerializerJson", "03_SerializerJson\03_SerializerJson.csproj", "{1AB37BB0-9184-433C-872B-77ED29273184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_SerializerJson", "03_SerializerJson\03_SerializerJson.csproj", "{1AB37BB0-9184-433C-872B-77ED29273184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_DeserializerJson", "04_DeserializerJson\04_DeserializerJson.csproj", "{DA0D7749-18D5-4DAD-94A1-FD78CCCF027E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_DeserializerJson", "04_DeserializerJson\04_DeserializerJson.csproj", "{DA0D7749-18D5-4DAD-94A1-FD78CCCF027E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Generics", "05_Generics\05_Generics.csproj", "{86D1C9D5-4026-403A-AF7E-363968A4B280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Generics", "05_Generics\05_Generics.csproj", "{86D1C9D5-4026-403A-AF7E-363968A4B280}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ExtensionMethods", "06_ExtensionMethods\06_ExtensionMethods.csproj", "{6947E88D-2DA4-49B8-9822-174524A8827B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_ExtensionMethods", "06_ExtensionMethods\06_ExtensionMethods.csproj", "{6947E88D-2DA4-49B8-9822-174524A8827B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Threads", "07_Threads\07_Threads.csproj", "{718E204F-89EE-4631-A445-7FE0396A5979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_MultiThreads", "MultiThreads\08_MultiThreads.csproj", "{9CFA5151-B580-4793-B948-0DA527BBA6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ThreadBackground", "09_ThreadBackground\09_ThreadBackground.csproj", "{729BC71D-64D8-49FF-9282-65B3F602C5D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{6947E88D-2DA4-49B8-9822-174524A8827B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6947E88D-2DA4-49B8-9822-174524A8827B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6947E88D-2DA4-49B8-9822-174524A8827B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718E204F-89EE-4631-A445-7FE0396A5979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718E204F-89EE-4631-A445-7FE0396A5979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718E204F-89EE-4631-A445-7FE0396A5979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718E204F-89EE-4631-A445-7FE0396A5979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFA5151-B580-4793-B948-0DA527BBA6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFA5151-B580-4793-B948-0DA527BBA6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFA5151-B580-4793-B948-0DA527BBA6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFA5151-B580-4793-B948-0DA527BBA6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
