@@ -23,6 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_MultiThreads", "MultiThr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ThreadBackground", "09_ThreadBackground\09_ThreadBackground.csproj", "{729BC71D-64D8-49FF-9282-65B3F602C5D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_ThreadId", "10_ThreadSafe\10_ThreadId.csproj", "{123D068D-0FD0-4A09-982D-D3033617A199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ThreadMetodos", "11_ThreadMetodos\11_ThreadMetodos.csproj", "{BB52839E-CB40-49AC-859D-C091CD0A07AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_ThreadAutoManual", "12_ThreadAutoManual\12_ThreadAutoManual.csproj", "{1AE4FC85-39BE-4341-A87B-18021185BB6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +75,18 @@ Global
 		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{729BC71D-64D8-49FF-9282-65B3F602C5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123D068D-0FD0-4A09-982D-D3033617A199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123D068D-0FD0-4A09-982D-D3033617A199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123D068D-0FD0-4A09-982D-D3033617A199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123D068D-0FD0-4A09-982D-D3033617A199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB52839E-CB40-49AC-859D-C091CD0A07AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB52839E-CB40-49AC-859D-C091CD0A07AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB52839E-CB40-49AC-859D-C091CD0A07AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB52839E-CB40-49AC-859D-C091CD0A07AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE4FC85-39BE-4341-A87B-18021185BB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE4FC85-39BE-4341-A87B-18021185BB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE4FC85-39BE-4341-A87B-18021185BB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE4FC85-39BE-4341-A87B-18021185BB6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
