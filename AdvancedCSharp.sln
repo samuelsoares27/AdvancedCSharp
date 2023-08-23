@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_ThreadMetodos", "11_Thre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_ThreadAutoManual", "12_ThreadAutoManual\12_ThreadAutoManual.csproj", "{1AE4FC85-39BE-4341-A87B-18021185BB6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Delegates", "13_Delegates\13_Delegates.csproj", "{E44819C8-CC5E-4D95-8515-AAABE9B606D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Delegates", "13_Delegates\13_Delegates.csproj", "{E44819C8-CC5E-4D95-8515-AAABE9B606D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Delegates", "14_Delegates\14_Delegates.csproj", "{3440FA1C-9098-4C30-99B7-4C0030AAF524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Delegates", "14_Delegates\14_Delegates.csproj", "{3440FA1C-9098-4C30-99B7-4C0030AAF524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Eventos", "15_Eventos\15_Eventos.csproj", "{36F25277-8AFF-4FA7-B741-EC719C380C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{3440FA1C-9098-4C30-99B7-4C0030AAF524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3440FA1C-9098-4C30-99B7-4C0030AAF524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3440FA1C-9098-4C30-99B7-4C0030AAF524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F25277-8AFF-4FA7-B741-EC719C380C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F25277-8AFF-4FA7-B741-EC719C380C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F25277-8AFF-4FA7-B741-EC719C380C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F25277-8AFF-4FA7-B741-EC719C380C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
