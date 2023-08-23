@@ -10,22 +10,22 @@ namespace _00_Library
     {
         public void Colorir(Foto foto)
         {
-            Console.WriteLine("FotoFiltro > Colorido");
+            Console.WriteLine($"FotoFiltro > Colorido {foto.Nome}");
         }
 
         public void GerarThumb(Foto foto)
         {
-            Console.WriteLine("FotoFiltro > Colorido");
+            Console.WriteLine($"FotoFiltro > GerarThumb {foto.Nome}");
         }
 
         public void PretoBranco(Foto foto)
         {
-            Console.WriteLine("FotoFiltro > PretoBranco");
+            Console.WriteLine($"FotoFiltro > PretoBranco {foto.Nome}");
         }
 
         public void RedimensionarTamMedio(Foto foto)
         {
-            Console.WriteLine("FotoFiltro > RedimensionarTamMedio");
+            Console.WriteLine($"FotoFiltro > RedimensionarTamMedio {foto.Nome}");
         }
     }
 }

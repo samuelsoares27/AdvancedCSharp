@@ -8,13 +8,13 @@ namespace _00_Library
 {
     public class FotoProcessador
     {
+        public delegate void FotoFiltroHandler(Foto foto);
+
+        public static FotoFiltroHandler filtros;
+
         public static void Processador(Foto foto)
         {
-            var filtros = new FotoFiltro();
-            filtros.Colorir(foto);
-            filtros.GerarThumb(foto);
-            filtros.PretoBranco(foto);
-            filtros.RedimensionarTamMedio(foto);
+            filtros(foto);
         }
     }
 }
