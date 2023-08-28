@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using _15_Eventos.Eventos;
+using _15_Eventos.Eventos.Mensageiro;
 
 namespace _15_Eventos
 {
@@ -15,6 +10,19 @@ namespace _15_Eventos
         public Form1()
         {
             InitializeComponent();
+            btnVideoEncode.Click += btnVideoEncode_Click;
+        }
+
+        private void btnVideoEncode_Click(object sender, EventArgs e)
+        {
+            Video video = new Video() { Nome = "video.mp4" };
+            
+            VideoEnconde videoEnconde = new VideoEnconde();
+
+            //videoEnconde.Encode += new Email().EnviarEmail;
+
+
+            videoEnconde.Encode(video);
         }
     }
 }
